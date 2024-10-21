@@ -1,1 +1,1 @@
-Projeto Proteção de Dados (Anonimização & Encriptação) usando KNIME
+Projeto de Proteção de Dados (Anonimização & Encriptação) usando KNIME
