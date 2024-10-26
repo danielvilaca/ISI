@@ -1,0 +1,473 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="settings.xml">
+    <entry key="node_file" type="xstring" value="settings.xml"/>
+    <config key="flow_stack"/>
+    <config key="internal_node_subsettings">
+        <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
+    </config>
+    <config key="model">
+        <config key="column-filter">
+            <entry key="filter-type" type="xstring" value="STANDARD"/>
+            <config key="included_names">
+                <entry key="array-size" type="xint" value="406"/>
+                <entry key="0" type="xstring" value="userId"/>
+                <entry key="1" type="xstring" value="id"/>
+                <entry key="2" type="xstring" value="body (#1)"/>
+                <entry key="3" type="xstring" value="userId (#1)"/>
+                <entry key="4" type="xstring" value="id (#1)"/>
+                <entry key="5" type="xstring" value="title (#1)"/>
+                <entry key="6" type="xstring" value="body (#2)"/>
+                <entry key="7" type="xstring" value="userId (#2)"/>
+                <entry key="8" type="xstring" value="id (#2)"/>
+                <entry key="9" type="xstring" value="title (#2)"/>
+                <entry key="10" type="xstring" value="body (#3)"/>
+                <entry key="11" type="xstring" value="userId (#3)"/>
+                <entry key="12" type="xstring" value="id (#3)"/>
+                <entry key="13" type="xstring" value="title (#3)"/>
+                <entry key="14" type="xstring" value="body (#4)"/>
+                <entry key="15" type="xstring" value="userId (#4)"/>
+                <entry key="16" type="xstring" value="id (#4)"/>
+                <entry key="17" type="xstring" value="title (#4)"/>
+                <entry key="18" type="xstring" value="body (#5)"/>
+                <entry key="19" type="xstring" value="userId (#5)"/>
+                <entry key="20" type="xstring" value="id (#5)"/>
+                <entry key="21" type="xstring" value="title (#5)"/>
+                <entry key="22" type="xstring" value="body (#6)"/>
+                <entry key="23" type="xstring" value="userId (#6)"/>
+                <entry key="24" type="xstring" value="id (#6)"/>
+                <entry key="25" type="xstring" value="title (#6)"/>
+                <entry key="26" type="xstring" value="body (#7)"/>
+                <entry key="27" type="xstring" value="userId (#7)"/>
+                <entry key="28" type="xstring" value="id (#7)"/>
+                <entry key="29" type="xstring" value="title (#7)"/>
+                <entry key="30" type="xstring" value="body (#8)"/>
+                <entry key="31" type="xstring" value="userId (#8)"/>
+                <entry key="32" type="xstring" value="id (#8)"/>
+                <entry key="33" type="xstring" value="title (#8)"/>
+                <entry key="34" type="xstring" value="body (#9)"/>
+                <entry key="35" type="xstring" value="userId (#9)"/>
+                <entry key="36" type="xstring" value="id (#9)"/>
+                <entry key="37" type="xstring" value="title (#9)"/>
+                <entry key="38" type="xstring" value="body (#10)"/>
+                <entry key="39" type="xstring" value="userId (#10)"/>
+                <entry key="40" type="xstring" value="id (#10)"/>
+                <entry key="41" type="xstring" value="title (#10)"/>
+                <entry key="42" type="xstring" value="body (#11)"/>
+                <entry key="43" type="xstring" value="userId (#11)"/>
+                <entry key="44" type="xstring" value="id (#11)"/>
+                <entry key="45" type="xstring" value="title (#11)"/>
+                <entry key="46" type="xstring" value="body (#12)"/>
+                <entry key="47" type="xstring" value="userId (#12)"/>
+                <entry key="48" type="xstring" value="id (#12)"/>
+                <entry key="49" type="xstring" value="title (#12)"/>
+                <entry key="50" type="xstring" value="body (#13)"/>
+                <entry key="51" type="xstring" value="userId (#13)"/>
+                <entry key="52" type="xstring" value="id (#13)"/>
+                <entry key="53" type="xstring" value="title (#13)"/>
+                <entry key="54" type="xstring" value="body (#14)"/>
+                <entry key="55" type="xstring" value="userId (#14)"/>
+                <entry key="56" type="xstring" value="id (#14)"/>
+                <entry key="57" type="xstring" value="title (#14)"/>
+                <entry key="58" type="xstring" value="body (#15)"/>
+                <entry key="59" type="xstring" value="userId (#15)"/>
+                <entry key="60" type="xstring" value="id (#15)"/>
+                <entry key="61" type="xstring" value="title (#15)"/>
+                <entry key="62" type="xstring" value="body (#16)"/>
+                <entry key="63" type="xstring" value="userId (#16)"/>
+                <entry key="64" type="xstring" value="id (#16)"/>
+                <entry key="65" type="xstring" value="title (#16)"/>
+                <entry key="66" type="xstring" value="body (#17)"/>
+                <entry key="67" type="xstring" value="userId (#17)"/>
+                <entry key="68" type="xstring" value="id (#17)"/>
+                <entry key="69" type="xstring" value="title (#17)"/>
+                <entry key="70" type="xstring" value="body (#18)"/>
+                <entry key="71" type="xstring" value="userId (#18)"/>
+                <entry key="72" type="xstring" value="id (#18)"/>
+                <entry key="73" type="xstring" value="title (#18)"/>
+                <entry key="74" type="xstring" value="body (#19)"/>
+                <entry key="75" type="xstring" value="userId (#19)"/>
+                <entry key="76" type="xstring" value="id (#19)"/>
+                <entry key="77" type="xstring" value="title (#19)"/>
+                <entry key="78" type="xstring" value="body (#20)"/>
+                <entry key="79" type="xstring" value="userId (#20)"/>
+                <entry key="80" type="xstring" value="id (#20)"/>
+                <entry key="81" type="xstring" value="title (#20)"/>
+                <entry key="82" type="xstring" value="body (#21)"/>
+                <entry key="83" type="xstring" value="userId (#21)"/>
+                <entry key="84" type="xstring" value="id (#21)"/>
+                <entry key="85" type="xstring" value="title (#21)"/>
+                <entry key="86" type="xstring" value="body (#22)"/>
+                <entry key="87" type="xstring" value="userId (#22)"/>
+                <entry key="88" type="xstring" value="id (#22)"/>
+                <entry key="89" type="xstring" value="title (#22)"/>
+                <entry key="90" type="xstring" value="body (#23)"/>
+                <entry key="91" type="xstring" value="userId (#23)"/>
+                <entry key="92" type="xstring" value="id (#23)"/>
+                <entry key="93" type="xstring" value="title (#23)"/>
+                <entry key="94" type="xstring" value="body (#24)"/>
+                <entry key="95" type="xstring" value="userId (#24)"/>
+                <entry key="96" type="xstring" value="id (#24)"/>
+                <entry key="97" type="xstring" value="title (#24)"/>
+                <entry key="98" type="xstring" value="body (#25)"/>
+                <entry key="99" type="xstring" value="userId (#25)"/>
+                <entry key="100" type="xstring" value="id (#25)"/>
+                <entry key="101" type="xstring" value="title (#25)"/>
+                <entry key="102" type="xstring" value="body (#26)"/>
+                <entry key="103" type="xstring" value="userId (#26)"/>
+                <entry key="104" type="xstring" value="id (#26)"/>
+                <entry key="105" type="xstring" value="title (#26)"/>
+                <entry key="106" type="xstring" value="body (#27)"/>
+                <entry key="107" type="xstring" value="userId (#27)"/>
+                <entry key="108" type="xstring" value="id (#27)"/>
+                <entry key="109" type="xstring" value="title (#27)"/>
+                <entry key="110" type="xstring" value="body (#28)"/>
+                <entry key="111" type="xstring" value="userId (#28)"/>
+                <entry key="112" type="xstring" value="id (#28)"/>
+                <entry key="113" type="xstring" value="title (#28)"/>
+                <entry key="114" type="xstring" value="body (#29)"/>
+                <entry key="115" type="xstring" value="userId (#29)"/>
+                <entry key="116" type="xstring" value="id (#29)"/>
+                <entry key="117" type="xstring" value="title (#29)"/>
+                <entry key="118" type="xstring" value="body (#30)"/>
+                <entry key="119" type="xstring" value="userId (#30)"/>
+                <entry key="120" type="xstring" value="id (#30)"/>
+                <entry key="121" type="xstring" value="title (#30)"/>
+                <entry key="122" type="xstring" value="body (#31)"/>
+                <entry key="123" type="xstring" value="userId (#31)"/>
+                <entry key="124" type="xstring" value="id (#31)"/>
+                <entry key="125" type="xstring" value="title (#31)"/>
+                <entry key="126" type="xstring" value="body (#32)"/>
+                <entry key="127" type="xstring" value="userId (#32)"/>
+                <entry key="128" type="xstring" value="id (#32)"/>
+                <entry key="129" type="xstring" value="title (#32)"/>
+                <entry key="130" type="xstring" value="body (#33)"/>
+                <entry key="131" type="xstring" value="userId (#33)"/>
+                <entry key="132" type="xstring" value="id (#33)"/>
+                <entry key="133" type="xstring" value="title (#33)"/>
+                <entry key="134" type="xstring" value="body (#34)"/>
+                <entry key="135" type="xstring" value="userId (#34)"/>
+                <entry key="136" type="xstring" value="id (#34)"/>
+                <entry key="137" type="xstring" value="title (#34)"/>
+                <entry key="138" type="xstring" value="body (#35)"/>
+                <entry key="139" type="xstring" value="userId (#35)"/>
+                <entry key="140" type="xstring" value="id (#35)"/>
+                <entry key="141" type="xstring" value="title (#35)"/>
+                <entry key="142" type="xstring" value="body (#36)"/>
+                <entry key="143" type="xstring" value="userId (#36)"/>
+                <entry key="144" type="xstring" value="id (#36)"/>
+                <entry key="145" type="xstring" value="title (#36)"/>
+                <entry key="146" type="xstring" value="body (#37)"/>
+                <entry key="147" type="xstring" value="userId (#37)"/>
+                <entry key="148" type="xstring" value="id (#37)"/>
+                <entry key="149" type="xstring" value="title (#37)"/>
+                <entry key="150" type="xstring" value="body (#38)"/>
+                <entry key="151" type="xstring" value="userId (#38)"/>
+                <entry key="152" type="xstring" value="id (#38)"/>
+                <entry key="153" type="xstring" value="title (#38)"/>
+                <entry key="154" type="xstring" value="body (#39)"/>
+                <entry key="155" type="xstring" value="userId (#39)"/>
+                <entry key="156" type="xstring" value="id (#39)"/>
+                <entry key="157" type="xstring" value="title (#39)"/>
+                <entry key="158" type="xstring" value="body (#40)"/>
+                <entry key="159" type="xstring" value="userId (#40)"/>
+                <entry key="160" type="xstring" value="id (#40)"/>
+                <entry key="161" type="xstring" value="title (#40)"/>
+                <entry key="162" type="xstring" value="body (#41)"/>
+                <entry key="163" type="xstring" value="userId (#41)"/>
+                <entry key="164" type="xstring" value="id (#41)"/>
+                <entry key="165" type="xstring" value="title (#41)"/>
+                <entry key="166" type="xstring" value="body (#42)"/>
+                <entry key="167" type="xstring" value="userId (#42)"/>
+                <entry key="168" type="xstring" value="id (#42)"/>
+                <entry key="169" type="xstring" value="title (#42)"/>
+                <entry key="170" type="xstring" value="body (#43)"/>
+                <entry key="171" type="xstring" value="userId (#43)"/>
+                <entry key="172" type="xstring" value="id (#43)"/>
+                <entry key="173" type="xstring" value="title (#43)"/>
+                <entry key="174" type="xstring" value="body (#44)"/>
+                <entry key="175" type="xstring" value="userId (#44)"/>
+                <entry key="176" type="xstring" value="id (#44)"/>
+                <entry key="177" type="xstring" value="title (#44)"/>
+                <entry key="178" type="xstring" value="body (#45)"/>
+                <entry key="179" type="xstring" value="userId (#45)"/>
+                <entry key="180" type="xstring" value="id (#45)"/>
+                <entry key="181" type="xstring" value="title (#45)"/>
+                <entry key="182" type="xstring" value="body (#46)"/>
+                <entry key="183" type="xstring" value="userId (#46)"/>
+                <entry key="184" type="xstring" value="id (#46)"/>
+                <entry key="185" type="xstring" value="title (#46)"/>
+                <entry key="186" type="xstring" value="body (#47)"/>
+                <entry key="187" type="xstring" value="userId (#47)"/>
+                <entry key="188" type="xstring" value="id (#47)"/>
+                <entry key="189" type="xstring" value="title (#47)"/>
+                <entry key="190" type="xstring" value="body (#48)"/>
+                <entry key="191" type="xstring" value="userId (#48)"/>
+                <entry key="192" type="xstring" value="id (#48)"/>
+                <entry key="193" type="xstring" value="title (#48)"/>
+                <entry key="194" type="xstring" value="body (#49)"/>
+                <entry key="195" type="xstring" value="userId (#49)"/>
+                <entry key="196" type="xstring" value="id (#49)"/>
+                <entry key="197" type="xstring" value="title (#49)"/>
+                <entry key="198" type="xstring" value="body (#50)"/>
+                <entry key="199" type="xstring" value="userId (#50)"/>
+                <entry key="200" type="xstring" value="id (#50)"/>
+                <entry key="201" type="xstring" value="title (#50)"/>
+                <entry key="202" type="xstring" value="body (#51)"/>
+                <entry key="203" type="xstring" value="userId (#51)"/>
+                <entry key="204" type="xstring" value="id (#51)"/>
+                <entry key="205" type="xstring" value="title (#51)"/>
+                <entry key="206" type="xstring" value="body (#52)"/>
+                <entry key="207" type="xstring" value="userId (#52)"/>
+                <entry key="208" type="xstring" value="id (#52)"/>
+                <entry key="209" type="xstring" value="title (#52)"/>
+                <entry key="210" type="xstring" value="body (#53)"/>
+                <entry key="211" type="xstring" value="userId (#53)"/>
+                <entry key="212" type="xstring" value="id (#53)"/>
+                <entry key="213" type="xstring" value="title (#53)"/>
+                <entry key="214" type="xstring" value="body (#54)"/>
+                <entry key="215" type="xstring" value="userId (#54)"/>
+                <entry key="216" type="xstring" value="id (#54)"/>
+                <entry key="217" type="xstring" value="title (#54)"/>
+                <entry key="218" type="xstring" value="body (#55)"/>
+                <entry key="219" type="xstring" value="userId (#55)"/>
+                <entry key="220" type="xstring" value="id (#55)"/>
+                <entry key="221" type="xstring" value="title (#55)"/>
+                <entry key="222" type="xstring" value="body (#56)"/>
+                <entry key="223" type="xstring" value="userId (#56)"/>
+                <entry key="224" type="xstring" value="id (#56)"/>
+                <entry key="225" type="xstring" value="title (#56)"/>
+                <entry key="226" type="xstring" value="body (#57)"/>
+                <entry key="227" type="xstring" value="userId (#57)"/>
+                <entry key="228" type="xstring" value="id (#57)"/>
+                <entry key="229" type="xstring" value="title (#57)"/>
+                <entry key="230" type="xstring" value="body (#58)"/>
+                <entry key="231" type="xstring" value="userId (#58)"/>
+                <entry key="232" type="xstring" value="id (#58)"/>
+                <entry key="233" type="xstring" value="title (#58)"/>
+                <entry key="234" type="xstring" value="body (#59)"/>
+                <entry key="235" type="xstring" value="userId (#59)"/>
+                <entry key="236" type="xstring" value="id (#59)"/>
+                <entry key="237" type="xstring" value="title (#59)"/>
+                <entry key="238" type="xstring" value="body (#60)"/>
+                <entry key="239" type="xstring" value="userId (#60)"/>
+                <entry key="240" type="xstring" value="id (#60)"/>
+                <entry key="241" type="xstring" value="title (#60)"/>
+                <entry key="242" type="xstring" value="body (#61)"/>
+                <entry key="243" type="xstring" value="userId (#61)"/>
+                <entry key="244" type="xstring" value="id (#61)"/>
+                <entry key="245" type="xstring" value="title (#61)"/>
+                <entry key="246" type="xstring" value="body (#62)"/>
+                <entry key="247" type="xstring" value="userId (#62)"/>
+                <entry key="248" type="xstring" value="id (#62)"/>
+                <entry key="249" type="xstring" value="title (#62)"/>
+                <entry key="250" type="xstring" value="body (#63)"/>
+                <entry key="251" type="xstring" value="userId (#63)"/>
+                <entry key="252" type="xstring" value="id (#63)"/>
+                <entry key="253" type="xstring" value="title (#63)"/>
+                <entry key="254" type="xstring" value="body (#64)"/>
+                <entry key="255" type="xstring" value="userId (#64)"/>
+                <entry key="256" type="xstring" value="id (#64)"/>
+                <entry key="257" type="xstring" value="title (#64)"/>
+                <entry key="258" type="xstring" value="body (#65)"/>
+                <entry key="259" type="xstring" value="userId (#65)"/>
+                <entry key="260" type="xstring" value="id (#65)"/>
+                <entry key="261" type="xstring" value="title (#65)"/>
+                <entry key="262" type="xstring" value="body (#66)"/>
+                <entry key="263" type="xstring" value="userId (#66)"/>
+                <entry key="264" type="xstring" value="id (#66)"/>
+                <entry key="265" type="xstring" value="title (#66)"/>
+                <entry key="266" type="xstring" value="body (#67)"/>
+                <entry key="267" type="xstring" value="userId (#67)"/>
+                <entry key="268" type="xstring" value="id (#67)"/>
+                <entry key="269" type="xstring" value="title (#67)"/>
+                <entry key="270" type="xstring" value="body (#68)"/>
+                <entry key="271" type="xstring" value="userId (#68)"/>
+                <entry key="272" type="xstring" value="id (#68)"/>
+                <entry key="273" type="xstring" value="title (#68)"/>
+                <entry key="274" type="xstring" value="body (#69)"/>
+                <entry key="275" type="xstring" value="userId (#69)"/>
+                <entry key="276" type="xstring" value="id (#69)"/>
+                <entry key="277" type="xstring" value="title (#69)"/>
+                <entry key="278" type="xstring" value="body (#70)"/>
+                <entry key="279" type="xstring" value="userId (#70)"/>
+                <entry key="280" type="xstring" value="id (#70)"/>
+                <entry key="281" type="xstring" value="title (#70)"/>
+                <entry key="282" type="xstring" value="body (#71)"/>
+                <entry key="283" type="xstring" value="userId (#71)"/>
+                <entry key="284" type="xstring" value="id (#71)"/>
+                <entry key="285" type="xstring" value="title (#71)"/>
+                <entry key="286" type="xstring" value="body (#72)"/>
+                <entry key="287" type="xstring" value="userId (#72)"/>
+                <entry key="288" type="xstring" value="id (#72)"/>
+                <entry key="289" type="xstring" value="title (#72)"/>
+                <entry key="290" type="xstring" value="body (#73)"/>
+                <entry key="291" type="xstring" value="userId (#73)"/>
+                <entry key="292" type="xstring" value="id (#73)"/>
+                <entry key="293" type="xstring" value="title (#73)"/>
+                <entry key="294" type="xstring" value="body (#74)"/>
+                <entry key="295" type="xstring" value="userId (#74)"/>
+                <entry key="296" type="xstring" value="id (#74)"/>
+                <entry key="297" type="xstring" value="title (#74)"/>
+                <entry key="298" type="xstring" value="body (#75)"/>
+                <entry key="299" type="xstring" value="userId (#75)"/>
+                <entry key="300" type="xstring" value="id (#75)"/>
+                <entry key="301" type="xstring" value="title (#75)"/>
+                <entry key="302" type="xstring" value="body (#76)"/>
+                <entry key="303" type="xstring" value="userId (#76)"/>
+                <entry key="304" type="xstring" value="id (#76)"/>
+                <entry key="305" type="xstring" value="title (#76)"/>
+                <entry key="306" type="xstring" value="body (#77)"/>
+                <entry key="307" type="xstring" value="userId (#77)"/>
+                <entry key="308" type="xstring" value="id (#77)"/>
+                <entry key="309" type="xstring" value="title (#77)"/>
+                <entry key="310" type="xstring" value="body (#78)"/>
+                <entry key="311" type="xstring" value="userId (#78)"/>
+                <entry key="312" type="xstring" value="id (#78)"/>
+                <entry key="313" type="xstring" value="title (#78)"/>
+                <entry key="314" type="xstring" value="body (#79)"/>
+                <entry key="315" type="xstring" value="userId (#79)"/>
+                <entry key="316" type="xstring" value="id (#79)"/>
+                <entry key="317" type="xstring" value="title (#79)"/>
+                <entry key="318" type="xstring" value="body (#80)"/>
+                <entry key="319" type="xstring" value="userId (#80)"/>
+                <entry key="320" type="xstring" value="id (#80)"/>
+                <entry key="321" type="xstring" value="title (#80)"/>
+                <entry key="322" type="xstring" value="body (#81)"/>
+                <entry key="323" type="xstring" value="userId (#81)"/>
+                <entry key="324" type="xstring" value="id (#81)"/>
+                <entry key="325" type="xstring" value="title (#81)"/>
+                <entry key="326" type="xstring" value="body (#82)"/>
+                <entry key="327" type="xstring" value="userId (#82)"/>
+                <entry key="328" type="xstring" value="id (#82)"/>
+                <entry key="329" type="xstring" value="title (#82)"/>
+                <entry key="330" type="xstring" value="body (#83)"/>
+                <entry key="331" type="xstring" value="userId (#83)"/>
+                <entry key="332" type="xstring" value="id (#83)"/>
+                <entry key="333" type="xstring" value="title (#83)"/>
+                <entry key="334" type="xstring" value="body (#84)"/>
+                <entry key="335" type="xstring" value="userId (#84)"/>
+                <entry key="336" type="xstring" value="id (#84)"/>
+                <entry key="337" type="xstring" value="title (#84)"/>
+                <entry key="338" type="xstring" value="body (#85)"/>
+                <entry key="339" type="xstring" value="userId (#85)"/>
+                <entry key="340" type="xstring" value="id (#85)"/>
+                <entry key="341" type="xstring" value="title (#85)"/>
+                <entry key="342" type="xstring" value="body (#86)"/>
+                <entry key="343" type="xstring" value="userId (#86)"/>
+                <entry key="344" type="xstring" value="id (#86)"/>
+                <entry key="345" type="xstring" value="title (#86)"/>
+                <entry key="346" type="xstring" value="body (#87)"/>
+                <entry key="347" type="xstring" value="userId (#87)"/>
+                <entry key="348" type="xstring" value="id (#87)"/>
+                <entry key="349" type="xstring" value="title (#87)"/>
+                <entry key="350" type="xstring" value="body (#88)"/>
+                <entry key="351" type="xstring" value="userId (#88)"/>
+                <entry key="352" type="xstring" value="id (#88)"/>
+                <entry key="353" type="xstring" value="title (#88)"/>
+                <entry key="354" type="xstring" value="body (#89)"/>
+                <entry key="355" type="xstring" value="userId (#89)"/>
+                <entry key="356" type="xstring" value="id (#89)"/>
+                <entry key="357" type="xstring" value="title (#89)"/>
+                <entry key="358" type="xstring" value="body (#90)"/>
+                <entry key="359" type="xstring" value="userId (#90)"/>
+                <entry key="360" type="xstring" value="id (#90)"/>
+                <entry key="361" type="xstring" value="title (#90)"/>
+                <entry key="362" type="xstring" value="body (#91)"/>
+                <entry key="363" type="xstring" value="userId (#91)"/>
+                <entry key="364" type="xstring" value="id (#91)"/>
+                <entry key="365" type="xstring" value="title (#91)"/>
+                <entry key="366" type="xstring" value="body (#92)"/>
+                <entry key="367" type="xstring" value="userId (#92)"/>
+                <entry key="368" type="xstring" value="id (#92)"/>
+                <entry key="369" type="xstring" value="title (#92)"/>
+                <entry key="370" type="xstring" value="body (#93)"/>
+                <entry key="371" type="xstring" value="userId (#93)"/>
+                <entry key="372" type="xstring" value="id (#93)"/>
+                <entry key="373" type="xstring" value="title (#93)"/>
+                <entry key="374" type="xstring" value="body (#94)"/>
+                <entry key="375" type="xstring" value="userId (#94)"/>
+                <entry key="376" type="xstring" value="id (#94)"/>
+                <entry key="377" type="xstring" value="title (#94)"/>
+                <entry key="378" type="xstring" value="body (#95)"/>
+                <entry key="379" type="xstring" value="userId (#95)"/>
+                <entry key="380" type="xstring" value="id (#95)"/>
+                <entry key="381" type="xstring" value="title (#95)"/>
+                <entry key="382" type="xstring" value="body (#96)"/>
+                <entry key="383" type="xstring" value="userId (#96)"/>
+                <entry key="384" type="xstring" value="id (#96)"/>
+                <entry key="385" type="xstring" value="title (#96)"/>
+                <entry key="386" type="xstring" value="body (#97)"/>
+                <entry key="387" type="xstring" value="userId (#97)"/>
+                <entry key="388" type="xstring" value="id (#97)"/>
+                <entry key="389" type="xstring" value="title (#97)"/>
+                <entry key="390" type="xstring" value="body (#98)"/>
+                <entry key="391" type="xstring" value="userId (#98)"/>
+                <entry key="392" type="xstring" value="id (#98)"/>
+                <entry key="393" type="xstring" value="title (#98)"/>
+                <entry key="394" type="xstring" value="body (#99)"/>
+                <entry key="395" type="xstring" value="userId (#99)"/>
+                <entry key="396" type="xstring" value="id (#99)"/>
+                <entry key="397" type="xstring" value="title (#99)"/>
+                <entry key="398" type="xstring" value="body (#100)"/>
+                <entry key="399" type="xstring" value="desc"/>
+                <entry key="400" type="xstring" value="name"/>
+                <entry key="401" type="xstring" value="title"/>
+                <entry key="402" type="xstring" value="author"/>
+                <entry key="403" type="xstring" value="description"/>
+                <entry key="404" type="xstring" value="content"/>
+                <entry key="405" type="xstring" value="url"/>
+            </config>
+            <config key="excluded_names">
+                <entry key="array-size" type="xint" value="11"/>
+                <entry key="0" type="xstring" value="Name"/>
+                <entry key="1" type="xstring" value="Execution Time"/>
+                <entry key="2" type="xstring" value="Execution Time since last Reset"/>
+                <entry key="3" type="xstring" value="Execution Time since Start"/>
+                <entry key="4" type="xstring" value="Nr of Executions since last Reset"/>
+                <entry key="5" type="xstring" value="Nr of Executions since Start"/>
+                <entry key="6" type="xstring" value="NodeID"/>
+                <entry key="7" type="xstring" value="Classname"/>
+                <entry key="8" type="xstring" value="Status"/>
+                <entry key="9" type="xstring" value="Content type"/>
+                <entry key="10" type="xstring" value="body"/>
+            </config>
+            <entry key="enforce_option" type="xstring" value="EnforceExclusion"/>
+            <config key="name_pattern">
+                <entry key="pattern" type="xstring" value=""/>
+                <entry key="type" type="xstring" value="Wildcard"/>
+                <entry key="caseSensitive" type="xboolean" value="true"/>
+                <entry key="excludeMatching" type="xboolean" value="false"/>
+            </config>
+            <config key="datatype">
+                <config key="typelist"/>
+            </config>
+        </config>
+    </config>
+    <config key="variables"/>
+    <entry key="customDescription" type="xstring" isnull="true" value=""/>
+    <entry key="state" type="xstring" value="IDLE"/>
+    <entry key="factory" type="xstring" value="org.knime.base.node.preproc.filter.column.DataColumnSpecFilterNodeFactory"/>
+    <entry key="node-name" type="xstring" value="Column Filter"/>
+    <entry key="node-bundle-name" type="xstring" value="KNIME Base Nodes"/>
+    <entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.base"/>
+    <entry key="node-bundle-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+    <entry key="node-bundle-version" type="xstring" value="5.3.2.v202409100934"/>
+    <entry key="node-feature-name" type="xstring" value="KNIME Base nodes"/>
+    <entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.base.feature.group"/>
+    <entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+    <entry key="node-feature-version" type="xstring" value="5.3.2.v202409100934"/>
+    <config key="factory_settings"/>
+    <entry key="name" type="xstring" value="Column Filter"/>
+    <entry key="hasContent" type="xboolean" value="false"/>
+    <entry key="isInactive" type="xboolean" value="false"/>
+    <config key="ports">
+        <config key="port_1">
+            <entry key="index" type="xint" value="1"/>
+            <entry key="port_dir_location" type="xstring" isnull="true" value=""/>
+        </config>
+    </config>
+    <config key="filestores">
+        <entry key="file_store_location" type="xstring" isnull="true" value=""/>
+        <entry key="file_store_id" type="xstring" isnull="true" value=""/>
+    </config>
+</config>

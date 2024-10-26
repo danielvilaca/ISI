@@ -27,7 +27,7 @@
         </config>
     </config>
     <entry key="customDescription" type="xstring" isnull="true" value=""/>
-    <entry key="state" type="xstring" value="EXECUTED"/>
+    <entry key="state" type="xstring" value="CONFIGURED"/>
     <entry key="factory" type="xstring" value="org.knime.base.filehandling.remote.connectioninformation.node.ftp.FTPConnectionInformationNodeFactory"/>
     <entry key="node-name" type="xstring" value="FTP Connection (legacy)"/>
     <entry key="node-bundle-name" type="xstring" value="KNIME File Handling Nodes"/>
@@ -40,21 +40,16 @@
     <entry key="node-feature-version" type="xstring" value="0.0.0"/>
     <config key="factory_settings"/>
     <entry key="name" type="xstring" value="FTP Connection (legacy)"/>
-    <entry key="hasContent" type="xboolean" value="true"/>
+    <entry key="hasContent" type="xboolean" value="false"/>
     <entry key="isInactive" type="xboolean" value="false"/>
     <config key="ports">
         <config key="port_1">
             <entry key="index" type="xint" value="1"/>
-            <entry key="port_spec_class" type="xstring" value="org.knime.base.filehandling.remote.connectioninformation.port.ConnectionInformationPortObjectSpec"/>
-            <entry key="port_object_class" type="xstring" value="org.knime.base.filehandling.remote.connectioninformation.port.ConnectionInformationPortObject"/>
-            <entry key="port_object_summary" type="xstring" value="ftp://a16939@127.0.0.1:14148"/>
-            <entry key="port_spec_location" type="xstring" value="spec/spec.zip"/>
-            <entry key="port_object_location" type="xstring" value="object/portobject.zip"/>
-            <entry key="port_dir_location" type="xstring" value="port_1"/>
+            <entry key="port_dir_location" type="xstring" isnull="true" value=""/>
         </config>
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="85c68571-0605-4496-b16e-265818b4e0d0"/>
+        <entry key="file_store_id" type="xstring" isnull="true" value=""/>
     </config>
 </config>
