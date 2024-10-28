@@ -8,7 +8,7 @@
         <entry key="authored-by" type="xstring" value="vilaka"/>
         <entry key="authored-when" type="xstring" value="2024-10-22 14:37:13 +0100"/>
         <entry key="lastEdited-by" type="xstring" value="vilaka"/>
-        <entry key="lastEdited-when" type="xstring" value="2024-10-26 19:57:17 +0100"/>
+        <entry key="lastEdited-when" type="xstring" value="2024-10-28 21:49:36 +0000"/>
     </config>
     <entry key="customDescription" type="xstring" isnull="true" value=""/>
     <entry key="state" type="xstring" value="IDLE"/>
@@ -839,15 +839,6 @@
             <entry key="destID" type="xint" value="23"/>
             <entry key="sourcePort" type="xint" value="1"/>
             <entry key="destPort" type="xint" value="1"/>
-            <entry key="ui_classname" type="xstring" value="org.knime.core.node.workflow.ConnectionUIInformation"/>
-            <config key="ui_settings">
-                <entry key="extrainfo.conn.bendpoints_size" type="xint" value="1"/>
-                <config key="extrainfo.conn.bendpoints_0">
-                    <entry key="array-size" type="xint" value="2"/>
-                    <entry key="0" type="xint" value="-125"/>
-                    <entry key="1" type="xint" value="6"/>
-                </config>
-            </config>
         </config>
         <config key="connection_1">
             <entry key="sourceID" type="xint" value="1"/>

@@ -30,7 +30,7 @@
             <config key="path">
                 <entry key="location_present" type="xboolean" value="true"/>
                 <entry key="file_system_type" type="xstring" value="LOCAL"/>
-                <entry key="path" type="xstring" value="C:\Users\vilaka\Desktop\IPCA\3ano\1sem\ISI\TP1\Dados\Encriptacao\Encrypt\excel_hashing.xlsx"/>
+                <entry key="path" type="xstring" value="C:\Users\vilaka\Desktop\IPCA\3ano\1sem\ISI\TP1\Dados\Encriptacao\Hash\excel_hashing.xlsx"/>
             </config>
             <config key="filter_mode_Internals">
                 <entry key="SettingsModelID" type="xstring" value="SMID_FilterMode"/>
@@ -109,7 +109,7 @@
         </config>
     </config>
     <entry key="customDescription" type="xstring" isnull="true" value=""/>
-    <entry key="state" type="xstring" value="EXECUTED"/>
+    <entry key="state" type="xstring" value="IDLE"/>
     <entry key="factory" type="xstring" value="org.knime.ext.poi3.node.io.filehandling.excel.writer.ExcelTableWriterNodeFactory"/>
     <entry key="node-name" type="xstring" value="Excel Writer"/>
     <entry key="node-bundle-name" type="xstring" value="KNIME POI (Excel) Plug-in"/>
@@ -126,11 +126,11 @@
         <config key="Sheet Input Ports"/>
     </config>
     <entry key="name" type="xstring" value="Excel Writer"/>
-    <entry key="hasContent" type="xboolean" value="true"/>
+    <entry key="hasContent" type="xboolean" value="false"/>
     <entry key="isInactive" type="xboolean" value="false"/>
     <config key="ports"/>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="1312911b-3337-4368-8cca-929b8a5cbede"/>
+        <entry key="file_store_id" type="xstring" isnull="true" value=""/>
     </config>
 </config>

@@ -6,7 +6,7 @@
         <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
     </config>
     <config key="model">
-        <entry key="script" type="xstring" value="import knime.scripting.io as knio%%00010import pandas as pd%%00010import hashlib%%00010%%00010# Load your input table into a DataFrame%%00010input_table = knio.input_tables[0].to_pandas()%%00010%%00010# Define a function to hash a cell using SHA-256%%00010def hash_cell(cell_value):%%00010    # Convert the cell to a string (if it's not already) and hash%%00010    if pd.isna(cell_value):  # Handle NaN values%%00010        return cell_value%%00010    else:%%00010        # Hash the cell value using SHA-256%%00010        hashed_value = hashlib.sha256(str(cell_value).encode()).hexdigest()%%00010        return hashed_value%%00010%%00010# Apply the hashing function to every cell in the DataFrame%%00010hashed_table = input_table.applymap(hash_cell)%%00010%%00010# Output the hashed DataFrame to the output table%%00010knio.output_tables[0] = knio.Table.from_pandas(hashed_table)"/>
+        <entry key="script" type="xstring" value="import knime.scripting.io as knio%%00010import pandas as pd%%00010import hashlib%%00010%%00010# Load your input table into a DataFrame%%00010input_table = knio.input_tables[0].to_pandas()%%00010%%00010# Define a function to hash a cell using SHA-256%%00010def hash_password(cell_value):%%00010    # Convert the cell to a string (if it's not already) and hash%%00010    if pd.isna(cell_value):  # Handle NaN values%%00010        return cell_value%%00010    else:%%00010        # Hash the cell value using SHA-256%%00010        hashed_value = hashlib.sha256(str(cell_value).encode()).hexdigest()%%00010        return hashed_value%%00010%%00010# Apply the hashing function only to the 'password' column%%00010input_table['password'] = input_table['password'].apply(hash_password)%%00010%%00010# Output the DataFrame with the hashed password to the output table%%00010knio.output_tables[0] = knio.Table.from_pandas(input_table)"/>
         <entry key="python3_command" type="xstring" value=""/>
     </config>
     <config key="variables">
@@ -20,7 +20,7 @@
         </config>
     </config>
     <entry key="customDescription" type="xstring" isnull="true" value=""/>
-    <entry key="state" type="xstring" value="EXECUTED"/>
+    <entry key="state" type="xstring" value="CONFIGURED"/>
     <entry key="factory" type="xstring" value="org.knime.python3.scripting.nodes2.script.PythonScriptNodeFactory"/>
     <entry key="node-name" type="xstring" value="Python Script"/>
     <entry key="node-bundle-name" type="xstring" value="KNIME Python 3 - Scripting Nodes"/>
@@ -48,19 +48,16 @@
         <config key="Output object (pickled)"/>
     </config>
     <entry key="name" type="xstring" value="Python Script"/>
-    <entry key="hasContent" type="xboolean" value="true"/>
+    <entry key="hasContent" type="xboolean" value="false"/>
     <entry key="isInactive" type="xboolean" value="false"/>
     <config key="ports">
         <config key="port_1">
             <entry key="index" type="xint" value="1"/>
-            <entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
-            <entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
-            <entry key="port_object_summary" type="xstring" value="Rows: 500, Cols: 10"/>
-            <entry key="port_dir_location" type="xstring" value="port_1"/>
+            <entry key="port_dir_location" type="xstring" isnull="true" value=""/>
         </config>
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="dcc40a95-1e60-472c-b9b0-ed978aeed25c"/>
+        <entry key="file_store_id" type="xstring" isnull="true" value=""/>
     </config>
 </config>
