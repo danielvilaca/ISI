@@ -4,8 +4,8 @@ CREATE TABLE FileAnalysis (fileAnalysisID int(10) NOT NULL AUTO_INCREMENT, Filef
 CREATE TABLE Url (urlID int(10) NOT NULL AUTO_INCREMENT, UseruserID int(10) NOT NULL, urlName varchar(2048), submitDate timestamp NULL, PRIMARY KEY (urlID), UNIQUE INDEX (urlID));
 CREATE TABLE UrlAnalysis (urlAnalysisID int(10) NOT NULL AUTO_INCREMENT, UrlurlID int(10) NOT NULL, urlStatus varchar(20), urlAnalysisDate timestamp NULL, urlAnalysisResult varchar(2048), PRIMARY KEY (urlAnalysisID), UNIQUE INDEX (urlAnalysisID));
 CREATE TABLE MalwareSignature (signatureID int(10) NOT NULL AUTO_INCREMENT, malwareName varchar(100), riskLevel varchar(20), malwareDesc varchar(2048), PRIMARY KEY (signatureID), UNIQUE INDEX (signatureID));
-CREATE TABLE FileAnalysisMalware (FileAnalysisfileAnalysisID int(10) NOT NULL, MalwareSignaturesignatureID int(10) NOT NULL);
-CREATE TABLE UrlAnalysisMalware (UrlAnalysisUrlAnalysisID int(10) NOT NULL, MalwareSignaturesignatureID int(10) NOT NULL);
+CREATE TABLE FileAnalysisMalware (fileAnalysisMalwareID int(10) NOT NULL AUTO_INCREMENT, FileAnalysisfileAnalysisID int(10) NOT NULL, MalwareSignaturesignatureID int(10) NOT NULL, PRIMARY KEY (fileAnalysisMalwareID), UNIQUE INDEX (fileAnalysisMalwareID));
+CREATE TABLE UrlAnalysisMalware (urlAnalysisMalwareID int(10) NOT NULL AUTO_INCREMENT, UrlAnalysisUrlAnalysisID int(10) NOT NULL, MalwareSignaturesignatureID int(10) NOT NULL, PRIMARY KEY (urlAnalysisMalwareID), UNIQUE INDEX (urlAnalysisMalwareID));
 CREATE TABLE Role (roleID int(10) NOT NULL AUTO_INCREMENT, roleName varchar(50), roleDesc varchar(255), PRIMARY KEY (roleID), UNIQUE INDEX (roleID));
 CREATE TABLE UserSession (sessionID int(10) NOT NULL AUTO_INCREMENT, UseruserID int(10) NOT NULL, sessionToken varchar(255), sessionCreatedAt timestamp NULL, sessionExpireAt timestamp NULL, PRIMARY KEY (sessionID), UNIQUE INDEX (sessionID));
 ALTER TABLE `File` ADD CONSTRAINT FKFile481978 FOREIGN KEY (UseruserID) REFERENCES `User` (userID);
