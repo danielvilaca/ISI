@@ -15,6 +15,6 @@ ALTER TABLE FileAnalysisMalware ADD CONSTRAINT FKFileAnalys539236 FOREIGN KEY (M
 ALTER TABLE Url ADD CONSTRAINT FKUrl586377 FOREIGN KEY (UseruserID) REFERENCES `User` (userID);
 ALTER TABLE UrlAnalysis ADD CONSTRAINT FKUrlAnalysi237419 FOREIGN KEY (UrlurlID) REFERENCES Url (urlID);
 ALTER TABLE UrlAnalysisMalware ADD CONSTRAINT FKUrlAnalysi674094 FOREIGN KEY (UrlAnalysisUrlAnalysisID) REFERENCES UrlAnalysis (urlAnalysisID);
-ALTER TABLE UrlAnalysisMalware ADD CONSTRAINT ` ` FOREIGN KEY (MalwareSignaturesignatureID) REFERENCES MalwareSignature (signatureID);
+ALTER TABLE UrlAnalysisMalware ADD CONSTRAINT FK_UrlAnalysisMalware_MalwareSignature FOREIGN KEY (MalwareSignaturesignatureID) REFERENCES MalwareSignature (signatureID);
 ALTER TABLE UserSession ADD CONSTRAINT FKUserSessio650077 FOREIGN KEY (UseruserID) REFERENCES `User` (userID);
 ALTER TABLE `User` ADD CONSTRAINT FKUser341726 FOREIGN KEY (RoleroleID) REFERENCES Role (roleID);
