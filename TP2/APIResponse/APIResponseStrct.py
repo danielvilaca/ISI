@@ -55,7 +55,7 @@ def format_api_response(api_response):
 
 def main():
     # Define the file path assuming it's in the same directory as the script
-    file_path = './FileResponse.txt'
+    file_path = './HashResponse.txt'
 
     try:
         # Read the text file and treat its contents as JSON string
