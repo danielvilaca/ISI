@@ -54,7 +54,7 @@ def format_api_response(api_response):
         return "An error occurred while processing the API response."
 
 def main():
-    # Define the file path assuming it's in the same directory as the script
+
     file_path = './HashResponse.txt'
 
     try:
@@ -62,19 +62,15 @@ def main():
         with open(file_path, 'r') as file:
             file_content = file.read()
 
-        # Parse the content as JSON
+
         api_response = json.loads(file_content)
 
-        # Print the structure of the loaded API response for debugging
         print(json.dumps(api_response, indent=4))  # Pretty print the JSON structure
 
-        # Format the API response
         formatted_message = format_api_response(api_response)
 
-        # Output the formatted message (you can print it or save it to a new file)
         print(formatted_message)
 
-        # Optionally, save the formatted message to a new file
         with open('formatted_response.txt', 'w') as output_file:
             output_file.write(formatted_message)
 
